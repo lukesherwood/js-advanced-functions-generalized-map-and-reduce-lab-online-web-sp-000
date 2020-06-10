@@ -6,3 +6,9 @@ let mapFun = function(array, func) {
   }
   return ar
 }
+map = function(array){
+  func = function(array) {
+    ar.push(element*-1)
+  }
+  return mapFun(array, map)
+}
