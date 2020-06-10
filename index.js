@@ -1,5 +1,5 @@
 // Add your functions here
-function mapToDouble (array){
+function mapFun (array, func){
   let ar = []
   for (const element of array) {
   ar.push(element*2);
