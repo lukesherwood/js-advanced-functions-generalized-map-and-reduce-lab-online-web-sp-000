@@ -1,14 +1,10 @@
-// Add your functions here
-let mapFun = function(array, func) {
-  let ar = []
+function map(src, cb) {
+  let r = []
+
   for (const element of array) {
-  return func
+    let theElement = src[i]
+    r.push(cb(theElement))
   }
-  return ar
-}
-map = function(array){
-  let func = function(array) {
-    ar.push(element*-1)
-  }
-  return mapFun(array, map)
+
+  return r;
 }
